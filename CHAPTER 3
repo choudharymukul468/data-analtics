@@ -1,0 +1,53 @@
+Assignment: Business Domains, KPIs, CAC, and Business Metrics
+Q1. Why is understanding the business domain important before analyzing data?
+Selected domain: Zomato (Food Delivery)
+
+Understanding the business domain is important because it helps a data analyst understand how the business operates, what its customers need, and which data is useful for making decisions.
+
+For example, in Zomato, an analyst should understand the ordering process, restaurant partnerships, delivery times, cancellations, and customer ratings before analyzing the data. This knowledge helps the analyst identify problems, such as delayed deliveries, and recommend improvements to customer satisfaction.
+Q2. List four KPIs for Flipkart (E-commerce)
+Answer:
+
+Key Performance Indicators (KPIs) are measurable values used to evaluate a business's performance and progress toward its goals.
+No.	KPI	Description
+1	Total Sales Revenue	Total money earned from product sales during a specific period.
+2	Customer Acquisition Rate	Rate at which new customers are gained over a specific period.
+3	Repeat Purchase Rate	Percentage of customers who make more than one purchase.
+4	Order Cancellation Rate	Percentage of placed orders that are cancelled.
+
+These KPIs help Flipkart measure sales performance, customer growth, customer loyalty, and order management efficiency.
+Q3. Define Customer Acquisition Cost (CAC) for Paytm
+Answer:
+
+Customer Acquisition Cost (CAC) is the average amount of money a company spends to acquire one new customer.
+
+Formula:
+\[
+\text{CAC}=\frac{\text{Total Acquisition Costs}}{\text{Number of New Customers Acquired}}
+\]
+
+Example:
+
+Suppose Paytm spends ₹2,00,000 on advertising, referral rewards, and promotional campaigns in one month and acquires 1,000 new customers.
+\[
+\text{CAC}=\frac{₹2,00,000}{1,000}=₹200
+\]
+
+Therefore, Paytm's customer acquisition cost is ₹200 per new customer.
+
+This metric helps Paytm evaluate whether its marketing campaigns are cost-effective and identify ways to attract new customers more efficiently.
+Q4. Define a new business metric for Swiggy to improve customer satisfaction
+Answer:
+
+As a data analyst at Swiggy, I would introduce a metric called On-Time Delivery Rate. It measures the percentage of orders delivered on or before the estimated delivery time shown to customers.
+
+Formula:
+\[
+\text{On-Time Delivery Rate}=
+\frac{\text{Orders Delivered On Time}}{\text{Total Delivered Orders}}\times100
+\]
+
+For example, if Swiggy delivers 900 out of 1,000 orders on time, its on-time delivery rate is 90%. I would analyze this metric by restaurant, delivery location, time of day, and delivery partner to identify delays. Swiggy could then improve delivery estimates, optimize delivery assignments, and address restaurant preparation delays. This would help improve customer satisfaction and build customer trust.
+
+Conclusion
+Understanding the business domain helps analysts interpret data correctly. KPIs measure business success, CAC measures the cost of acquiring customers, and carefully defined metrics help companies like Zomato, Flipkart, Paytm, and Swiggy make better decisions and improve customer experience.
