@@ -1,0 +1,98 @@
+Assignment: Data Analytics – Problem Identification, Data Cleaning, and Transformation
+Q1. Identify a real-world analytics problem for an app
+Selected app: Zomato
+
+Zomato can use data analytics to understand customer food preferences in Ahmedabad. The business problem is to identify which food categories are most popular so that the company can improve restaurant recommendations and promotional offers. I would analyze order history, food categories, restaurant locations, order values, and order timestamps. The main business question would be: “Which food categories receive the highest number of orders in Ahmedabad?” The results could help Zomato recommend popular dishes, target promotions, and improve customer satisfaction.
+Q2. List five types of raw data needed for Spotify music listening trends
+Answer:
+No.	Raw data type	Description
+1	Song ID and song name	Identifies the song being played.
+2	User ID	Identifies the listener while protecting their identity in analytical datasets.
+3	Play timestamp	Records the date and time when a song is played.
+4	Listening duration	Measures how long the user listens to a song.
+5	Artist and music genre	Identifies the artist and category of music.
+
+These data types help Spotify identify popular songs, peak listening times, and user music preferences.
+Q3. Clean and standardize the Flipkart-style product data
+Input data:
+product_id: 123
+name: 'iPhone 14 '
+price: '79999 '
+category: ' Mobiles'
+rating: '4.5 '
+stock: 'Yes'
+
+
+Cleaned data:
+Field	Original value	Cleaned value	Data type
+product_id	123	123	Integer
+name	'iPhone 14 '	iPhone 14	String
+price	'79999 '	79999	Integer
+category	' Mobiles'	mobiles	String
+rating	'4.5 '	4.5	Float
+stock	'Yes'	Yes	String / Boolean indicator
+
+Explanation:
+- Removed extra spaces from the name, price, category, and rating.
+- Converted the price from text to an integer.
+- Converted the rating to a numeric decimal value.
+- Changed the category to lowercase.
+- Standardized the stock field as a consistent indicator. It could also be stored as a Boolean value, such as TRUE.
+The cleaned data is now more consistent and ready for analysis.
+Q4. Transform Zomato order data into a summary table
+Input data:
+User	Item	Price (₹)
+A	Pizza	300
+B	Burger	150
+A	Burger	150
+
+Calculation:
+- User A: ₹300 + ₹150 = ₹450
+- User B: ₹150 = ₹150
+Output summary table:
+User	Total Spend (₹)
+A	450
+B	150
+Grand Total	600
+
+Conclusion: User A spent ₹450, while User B spent ₹150. This summary helps identify customer spending patterns.
+Q5. Create a bar chart showing tickets sold per movie
+Answer:
+
+The following sample data represents the number of tickets sold for three movies. These figures are illustrative, not actual booking records.
+Movie	Tickets Sold
+Jawan	500
+Pathaan	350
+Dunki	250
+
+Bar chart
+Tickets Sold per Movie
+Sample data · Number of tickets
+Jawan
+
+500
+
+
+
+
+Pathaan
+
+350
+
+
+
+
+Dunki
+
+250
+
+
+
+
+Scale: 0–500 tickets
+
+Insight for the manager
+Jawan has the highest ticket sales, with 500 tickets, followed by Pathaan with 350 and Dunki with 250. Jawan sold twice as many tickets as Dunki in this sample. The manager could investigate what contributed to Jawan's stronger performance and use those findings to improve marketing and promotional strategies for other movies.
+
+Overall conclusion
+Data analytics involves identifying business problems, collecting relevant raw data, cleaning inconsistent values, transforming detailed records into summaries, and visualizing results. These steps help businesses make informed decisions and improve their services.
